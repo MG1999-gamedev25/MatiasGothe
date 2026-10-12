@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matias Gothe Gandolfi – IL Zappino | DJ &amp; Event Production</title>
+<meta name="description" content="Matias Gothe Gandolfi (IL Zappino) – DJ and event producer in Santiago, Chile. Hundreds of live events, private events up to 1,500 attendees, and corporate events. DJ y productor de eventos.">
+<meta name="author" content="Matias Gothe Gandolfi">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Matias Gothe Gandolfi – IL Zappino | DJ &amp; Event Production">
+<meta property="og:description" content="DJ and event producer. Hundreds of live events, private events up to 1,500 attendees, and corporate events.">
+<meta property="profile:first_name" content="Matias">
+<meta property="profile:last_name" content="Gothe Gandolfi">
+<meta name="twitter:card" content="summary">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Matias Gothe Gandolfi",
+  "alternateName": ["IL Zappino", "Matías Gothe Gandolfi", "Matias Gothe"],
+  "jobTitle": "DJ and Event Producer",
+  "description": "DJ and event producer with hundreds of live events, private events of up to 1,500 attendees, and corporate events.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Santiago", "addressCountry": "CL" },
+  "knowsLanguage": ["en", "es"],
+  "sameAs": ["https://www.linkedin.com/in/matias-gothe/"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #fafaf8;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --line: #e2e2de;
+    --accent: #1a1a1a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+  html[lang="en"] [data-lang="es"],
+  html[lang="es"] [data-lang="en"] { display: none !important; }
+
+  nav .wrap { display: flex; justify-content: flex-end; padding-top: 24px; }
+  .langs { display: flex; gap: 14px; font-size: 13px; }
+  .langs button {
+    background: none; border: 0; color: var(--muted); font: 500 13px "Inter", sans-serif;
+    cursor: pointer; padding: 2px 0; border-bottom: 1px solid transparent;
+  }
+  .langs button.on { color: var(--text); border-bottom-color: var(--text); }
+
+  header { padding: 72px 0 56px; border-bottom: 1px solid var(--line); }
+  h1 { font-size: clamp(34px, 6vw, 48px); font-weight: 600; letter-spacing: -.02em; line-height: 1.1; }
+  .alias { margin-top: 8px; font-size: 18px; color: var(--muted); }
+  .role { margin-top: 24px; font-size: 18px; max-width: 600px; }
+  .links { margin-top: 28px; display: flex; gap: 24px; flex-wrap: wrap; font-size: 15px; }
+  .links a { text-decoration: none; border-bottom: 1px solid var(--text); padding-bottom: 1px; }
+  .links a:hover { color: var(--muted); border-color: var(--muted); }
+
+  section { padding: 48px 0; border-bottom: 1px solid var(--line); }
+  h2 {
+    font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 20px;
+  }
+  p + p { margin-top: 14px; }
+
+  .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .facts b { display: block; font-size: 26px; font-weight: 600; letter-spacing: -.01em; }
+  .facts span { color: var(--muted); font-size: 14px; }
+
+  dl.services div { display: grid; grid-template-columns: 180px 1fr; gap: 16px; padding: 12px 0; }
+  dl.services div + div { border-top: 1px solid var(--line); }
+  dl.services dt { font-weight: 600; }
+  dl.services dd { color: var(--muted); }
+
+  ul.venues { list-style: none; columns: 2; column-gap: 32px; }
+  ul.venues li { padding: 5px 0; break-inside: avoid; }
+  ul.venues small { color: var(--muted); font-size: 13px; }
+
+  footer { padding: 32px 0 48px; color: var(--muted); font-size: 13px; }
+
+  @media (max-width: 600px) {
+    header { padding: 48px 0 40px; }
+    .facts { grid-template-columns: 1fr; gap: 16px; }
+    dl.services div { grid-template-columns: 1fr; gap: 2px; }
+    ul.venues { columns: 1; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="langs" role="group" aria-label="Language">
+      <button id="btn-en" class="on" onclick="setLang('en')">English</button>
+      <button id="btn-es" onclick="setLang('es')">Español</button>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <h1>Matias Gothe Gandolfi</h1>
+    <p class="alias">IL Zappino</p>
+    <p class="role">
+      <span data-lang="en">DJ and event producer based in Santiago, Chile.</span>
+      <span data-lang="es">DJ y productor de eventos en Santiago, Chile.</span>
+    </p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/matias-gothe/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 data-lang="en">About</h2><h2 data-lang="es">Perfil</h2>
+    <p data-lang="en">I have worked at hundreds of live events, performing as a DJ and, in many cases, overseeing full production for small to mid-scale private events of up to around 1,500 attendees.</p>
+    <p data-lang="es">He trabajado en cientos de eventos en vivo, como DJ y, en muchos casos, a cargo de la producción completa de eventos privados pequeños y medianos de hasta unas 1.500 personas.</p>
+    <p data-lang="en">My production work covers technical logistics: crowd flow, lighting, sound setup, cabling and equipment, as well as coordination with photographers and DJs.</p>
+    <p data-lang="es">Mi trabajo de producción abarca la logística técnica: flujo de público, iluminación, montaje de sonido, cableado y equipos, además de la coordinación con fotógrafos y DJs.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="facts">
+      <div><b>100+</b><span data-lang="en">live events</span><span data-lang="es">eventos en vivo</span></div>
+      <div><b>1,500</b><span data-lang="en">attendees, largest private events</span><span data-lang="es">asistentes, eventos privados más grandes</span></div>
+      <div><b>20+</b><span data-lang="en">venues</span><span data-lang="es">locales</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 data-lang="en">Services</h2><h2 data-lang="es">Servicios</h2>
+    <dl class="services">
+      <div><dt>DJ</dt>
+        <dd data-lang="en">Club nights, headline sets, private and themed events.</dd>
+        <dd data-lang="es">Noches de club, sets como headliner, eventos privados y temáticos.</dd></div>
+      <div><dt data-lang="en">Event production</dt><dt data-lang="es">Producción de eventos</dt>
+        <dd data-lang="en">Technical logistics and coordination for private events.</dd>
+        <dd data-lang="es">Logística técnica y coordinación de eventos privados.</dd></div>
+      <div><dt data-lang="en">Corporate events</dt><dt data-lang="es">Eventos corporativos</dt>
+        <dd data-lang="en">Boston Consulting Group New Year celebration; Mall Sport brand activations.</dd>
+        <dd data-lang="es">Celebración de Año Nuevo de Boston Consulting Group; activaciones de marca para Mall Sport.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 data-lang="en">Selected venues</h2><h2 data-lang="es">Locales destacados</h2>
+    <ul class="venues">
+      <li>Sala Metrónomo <small>(headliner)</small></li>
+      <li>Club Subterráneo</li>
+      <li>Club Ámbar</li>
+      <li>Onaciu</li>
+      <li>Terraza Arrayán</li>
+      <li>Isla Pao Pao</li>
+      <li>Santo Ángel</li>
+      <li>Santo Diablo <small>(Halloween)</small></li>
+      <li>Club 57</li>
+      <li>Mokaii</li>
+      <li>Barbanegra</li>
+      <li>Bar Eleven</li>
+      <li>Bar Errante</li>
+      <li>Estadio Israelita</li>
+      <li>Antonella Bar</li>
+      <li>Vietnam Discovery</li>
+      <li>Old Grangonian Club</li>
+      <li>Sarita Colonia</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 data-lang="en">Contact</h2><h2 data-lang="es">Contacto</h2>
+    <p data-lang="en">For bookings and event inquiries, contact me on <a href="https://www.linkedin.com/in/matias-gothe/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    <p data-lang="es">Para contrataciones y consultas, escríbeme por <a href="https://www.linkedin.com/in/matias-gothe/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Matias Gothe Gandolfi</div>
+</footer>
+
+<script>
+  function setLang(l) {
+    document.documentElement.lang = l;
+    document.getElementById('btn-en').classList.toggle('on', l === 'en');
+    document.getElementById('btn-es').classList.toggle('on', l === 'es');
+    try { localStorage.setItem('lang', l); } catch (e) {}
+  }
+  (function () {
+    var l = null;
+    try { l = localStorage.getItem('lang'); } catch (e) {}
+    if (!l) l = (navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+    setLang(l);
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  })();
+</script>
+</body>
+</html>
